@@ -1,0 +1,16 @@
+{
+  "name": "webassembly-helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "wat2wasm add.wat",
+    "serve": "serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^11.0.0",
+    "wat2wasm": "^1.0.2"
+  }
+}
